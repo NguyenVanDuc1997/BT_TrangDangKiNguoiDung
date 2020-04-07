@@ -97,9 +97,9 @@ if ($error === false) {
     </tr>
     <?php foreach ($registrations as $registration): ?>
         <tr>
-            <td><?php $registration['name']; echo "a";?></td>
-            <td><?php $registration['email']; echo "b";?></td>
-            <td><?php $registration['phone']; echo "c";?></td>
+            <td><?php echo $registration['name'];?></td>
+            <td><?php echo $registration['email'];?></td>
+            <td><?php echo $registration['phone'];?></td>
         </tr>
     <?php endforeach; ?>
 </table>
